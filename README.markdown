@@ -20,7 +20,7 @@ Creates a failed attempt that counts towards the limit for the passed duration
 Deletes all failed attempts for a certain action
 
 ### cleanup()
-Deletes all expired failed attempts from the database. This should be run via CakeShell every now and then. 
+Deletes all expired failed attempts from the database. This should be run via CakeShell (ideally as a CRON job) every now and then. 
 
 
 Schema
